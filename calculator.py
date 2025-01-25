@@ -1,5 +1,7 @@
 import math
+
 while(1):
+    
     num1 = float(input('Enter 1st number : '))
 
     operator = input('Enter the operator(+,-,*,/,^) : ')
@@ -29,8 +31,11 @@ while(1):
         result='invalid operator'
 
     print(num1,operator,num2,' = ',result)
+    
     stop=input("Enter yes/no to continue or terminate the operations : ")
+    
     if stop == 'no':
         break
+    
     else :
         continue
