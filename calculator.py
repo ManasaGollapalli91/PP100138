@@ -26,7 +26,7 @@ while(1):
         result = pow(num1,num2)
 
     else :
-        print('invalid operator')
+        result='invalid operator'
 
     print(num1,operator,num2,' = ',result)
     stop=input("Enter yes/no to continue or terminate the operations : ")
